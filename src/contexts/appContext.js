@@ -11,7 +11,7 @@ const AppContextProvider = ({ children }) => {
   //   Constant for APP
   const MODEL_URL = "https://tfhub.dev/google/tfjs-model/yamnet/tfjs/1";
   const CLASS_MAP_URL =
-    "https://raw.githubusercontent.com/tensorflow/models/master/research/audioset/yamnet/yamnet_class_map.csv";
+    "https://raw.githubusercontent.com/rizwanishaq/event-detection-tensorflow/main/src/yamnet_class_map.csv";
 
   const [labels, setLabels] = useState({});
   const [model, setModel] = useState(null);

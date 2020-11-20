@@ -23,32 +23,30 @@ const Header = () => {
               <i className="fas fa-home"></i>
             </Navbar.Brand>
           </LinkContainer>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto">
-              {model ? (
-                <>
-                  <Nav.Link onClick={startHandler} disabled={start}>
-                    <i className="fas fa-play"></i>Start
-                  </Nav.Link>
-                  <Nav.Link onClick={stopHandler} disabled={!start}>
-                    <i className="fas fa-stop-circle"></i>Stop
-                  </Nav.Link>{" "}
-                </>
-              ) : (
-                <Button variant="primary" disabled>
-                  <Spinner
-                    as="span"
-                    animation="grow"
-                    size="sm"
-                    role="status"
-                    aria-hidden="true"
-                  />
-                  model loading...
-                </Button>
-              )}
-            </Nav>
-          </Navbar.Collapse>
+
+          <Nav className="ml-auto">
+            {model ? (
+              <>
+                <Nav.Link onClick={startHandler} disabled={start}>
+                  <i className="fas fa-play"></i>Start
+                </Nav.Link>
+                <Nav.Link onClick={stopHandler} disabled={!start}>
+                  <i className="fas fa-stop-circle"></i>Stop
+                </Nav.Link>{" "}
+              </>
+            ) : (
+              <Button variant="primary" disabled>
+                <Spinner
+                  as="span"
+                  animation="grow"
+                  size="sm"
+                  role="status"
+                  aria-hidden="true"
+                />
+                model loading...
+              </Button>
+            )}
+          </Nav>
         </Container>
       </Navbar>
     </header>
