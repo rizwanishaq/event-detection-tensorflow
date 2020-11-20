@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de8e21b3bba9e3c1c8ab8dbd72516fca",
+    "revision": "aff737072abc186a4e40d21df7eaf9ed",
     "url": "/event-detection-tensorflow/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/event-detection-tensorflow/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "4890e06454e9695326fd",
+    "revision": "319191de5dffe97ca2d6",
     "url": "/event-detection-tensorflow/static/css/main.d498bfb3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/event-detection-tensorflow/static/js/2.d42713cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4890e06454e9695326fd",
-    "url": "/event-detection-tensorflow/static/js/main.e908f86a.chunk.js"
+    "revision": "319191de5dffe97ca2d6",
+    "url": "/event-detection-tensorflow/static/js/main.94abe0ed.chunk.js"
   },
   {
     "revision": "645ca7e492eb45c4adaa",
